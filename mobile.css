@@ -1,0 +1,53 @@
+@media screen and (max-width: 767px) {
+  
+    body {
+        display: inline-block;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .ngang {
+        display: block;
+    }
+    .card-title {
+        font-size: 25px;
+       
+    }
+
+  
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid5,
+    .grid6 {
+        grid-area: 1 / 1 / 2 / 2;
+        margin-bottom: 15px;
+    }
+    .grid-container {
+        display: block;
+        
+    }
+
+   .chungchi {
+    padding: 0;
+   }
+
+   .section-titles {
+    font-size: 30px;
+   }
+   #certificate {
+    padding: 0;
+    margin: 0;
+   }
+
+   .cert-grid {
+    display: block;
+   }
+   .side {
+    display: block;
+   }
+   .cert-title {
+    padding: 0;
+   }
+}

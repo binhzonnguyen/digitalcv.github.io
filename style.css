@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+/* section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+} */
+
+#nav-bar {
+    text-align: center;
+}
+
+
+.banner-info {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+
+}
+
+#banner {
+    display: relative;
+  
+    top: 50%;    
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.container {
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.container a {
+    float: center;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #444;
+    
+}
+.container a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+i {
+    color: rgb(17, 181, 252);
+}
+
+.nav-div {
+    display: inline-block;
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    padding-left: 0px   ;
+    
+}
+ 
+
+
+.container-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(3, auto);
+    text-align: justify;
+    width: 1130px;
+}
+
+
+
+#grid-item1 {
+    /* background-color:#eeecec; */
+    margin-left: 200px;
+
+}
+
+
+.section-title {
+  /* position: relative; */
+    font-size: 30px;
+    /* margin: 40px; */
+    /* margin-top: 100px; */
+    
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-template-rows: auto auto; */
+    gap: 30px;
+    /* grid-auto-rows: minmax(900px, auto); */
+}
+
+.grid-container h1 {
+    font-size: 30px;
+}
+
+.grid-container h2 {
+    font-size: 20px;
+}
+
+/* Grid area : row start, column start, row end , column end */
+.grid1 {
+    grid-area: 1 / 1 / 2 / 2 ;
+    grid-template-columns: 70% 30%;
+   
+}
+
+.grid2 {
+    grid-area: 1 / 2 / 2 / 3;
+    /* grid-area: 1 / 3 / 2 / 4; */
+    grid-template-columns: 70% 30%;
+}
+
+.grid3 {
+    grid-area: 1 / 3 / 2 / 4;
+    grid-template-columns: 70% 30%;
+    
+}
+
+.grid4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.grid5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+
+
+.hobbies {
+
+    display: inline-block;
+    
+}
+
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 50%;
+    gap: 20px;
+}
+.cert-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.cert-des {
+    color: gray;
+}
+.side {
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+img {
+    width: 100%;
+}
+.icon {
+    display: flex;
+    width: 30px;
+    height:30px;
+    border: 2px solid #199cdb;
+    border-radius: 50%;
+    color: #199cdb;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 20px;
+    padding: 10px;
+}
+
+.head {
+    display: grid;
+   
+    grid-template-columns: 75% 25%;
+}
+
+
+.grid-title,
+i {
+    text-align: center;
+}
+
+i {
+    align-items: center;
+}
+
+span {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.first span:nth-child(2),
+.first span:nth-child(3)
+{
+    background: #606060;
+}
+
+
+.second span:nth-child(3)
+{
+    background: #606060;
+}
+.third span:nth-child(3)
+{
+    background: #606060;
+}
+
+.fourth span:nth-child(2),
+.fourth span:nth-child(3)
+{
+    background: #606060;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 2fr 1fr 1fr 2fr; */
+    gap: 5px; 
+}
+
+
+.project-p {
+    display: flex;
+    text-transform: uppercase;
+    background-color: #87839f;
+    height: 75px;
+    margin: 10px 0;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #199cdb;
+    color:  whitesmoke;
+    width: 55px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.ngang {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+    gap: 25px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    grid-template-columns: 1fr auto;
+}
+
+tr {
+    height: 70px;
+   
+}
+
+footer {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+.nav-div {
+    border: 4px solid rgb(202, 202, 211);
+    width: 100px;
+    border-radius: 50%;
+   
+}

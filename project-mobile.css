@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  
+    body {
+        display: inline-block;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .grid-container {
+        display: block;
+    }
+}
